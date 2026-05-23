@@ -51,37 +51,37 @@ All numbers are from a single live run on the same question using `gpt-4o-mini`.
 
 ### Token Usage
 
-![Token Comparison](charts/01_token_comparison.png)
+![Token Comparison](multi_agent_graph_ragcharts/01_token_comparison.png)
 
 Sending the entire graph verbatim costs **3,443 input tokens** per query. The multi-agent pipeline sends only the condensed, agent-gathered context: **793 input tokens** - a 77% reduction, with richer and more structured answers.
 
 ### Cost per Query
 
-![Cost Comparison](charts/02_cost_comparison.png)
+![Cost Comparison](multi_agent_graph_rag/charts/02_cost_comparison.png)
 
 At gpt-4o-mini pricing, the full-graph approach costs **0.576 milli-USD** per query. Multi-agent comes in at **0.268 milli-USD** - less than half, despite making two API calls. The gap grows with graph size.
 
 ### Input vs Output Breakdown
 
-![Stacked Tokens](charts/03_stacked_tokens.png)
+![Stacked Tokens](multi_agent_graph_rag/charts/03_stacked_tokens.png)
 
 Input tokens dominate in every pipeline. The full-graph approach produces fewer output tokens (99) than multi-agent (248) - the agents surface more structured facts that the synthesizer reasons over in depth.
 
 ### API Calls
 
-![API Calls](charts/04_api_calls.png)
+![API Calls](multi_agent_graph_rag/charts/04_api_calls.png)
 
 Multi-agent makes two LLM calls: one cheap coordinator call to plan the search, and one synthesis call on the condensed result. The parallel Qdrant worker queries are local and free.
 
 ### Knowledge Graph
 
-![Knowledge Graph](charts/05_knowledge_graph.png)
+![Knowledge Graph](multi_agent_graph_rag/charts/05_knowledge_graph.png)
 
 The graph covers 32 entities (organisations, people, models, products, one core technology) and 47 directed relationships across the global AI ecosystem. Node size scales with degree - OpenAI and Anthropic are the most connected hubs.
 
 ### Full Dashboard
 
-![Dashboard](charts/06_dashboard.png)
+![Dashboard](multi_agent_graph_rag/charts/06_dashboard.png)
 
 ---
 
