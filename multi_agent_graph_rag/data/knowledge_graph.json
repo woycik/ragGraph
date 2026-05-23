@@ -1,0 +1,277 @@
+{
+  "nodes": [
+    {
+      "id": "anthropic",
+      "type": "Organization",
+      "name": "Anthropic",
+      "description": "Anthropic is an AI safety company founded in 2021 by former OpenAI researchers. They develop Claude AI models and focus on AI safety research and alignment.",
+      "metadata": {"founded": 2021, "location": "San Francisco, USA", "valuation": "18B USD"}
+    },
+    {
+      "id": "openai",
+      "type": "Organization",
+      "name": "OpenAI",
+      "description": "OpenAI is an AI research organization founded in 2015, developer of GPT-4, ChatGPT, and DALL-E. Originally a nonprofit, it became a capped-profit company with massive Microsoft backing.",
+      "metadata": {"founded": 2015, "location": "San Francisco, USA", "valuation": "157B USD"}
+    },
+    {
+      "id": "google_deepmind",
+      "type": "Organization",
+      "name": "Google DeepMind",
+      "description": "Google DeepMind is Google's primary AI research division, formed by merging Google Brain and DeepMind. They develop Gemini models and pioneered AlphaGo and AlphaFold.",
+      "metadata": {"founded": 2023, "location": "London & Mountain View", "parent": "Alphabet"}
+    },
+    {
+      "id": "meta_ai",
+      "type": "Organization",
+      "name": "Meta AI",
+      "description": "Meta AI is the AI research division of Meta Platforms. They are known for open-source AI contributions including the Llama model family and PyTorch framework.",
+      "metadata": {"founded": 2013, "location": "Menlo Park, USA", "parent": "Meta Platforms"}
+    },
+    {
+      "id": "mistral_ai",
+      "type": "Organization",
+      "name": "Mistral AI",
+      "description": "Mistral AI is a French AI startup founded in 2023 by former DeepMind and Meta researchers. They develop efficient open-source and commercial language models.",
+      "metadata": {"founded": 2023, "location": "Paris, France", "valuation": "6B USD"}
+    },
+    {
+      "id": "cohere",
+      "type": "Organization",
+      "name": "Cohere",
+      "description": "Cohere is a Canadian AI company focused on enterprise NLP solutions. They develop Command R models optimized for retrieval-augmented generation and business applications.",
+      "metadata": {"founded": 2019, "location": "Toronto, Canada", "valuation": "5B USD"}
+    },
+    {
+      "id": "hugging_face",
+      "type": "Organization",
+      "name": "Hugging Face",
+      "description": "Hugging Face is an AI platform and community hub for sharing machine learning models, datasets, and demos. They host over 500,000 models and are the GitHub of AI.",
+      "metadata": {"founded": 2016, "location": "New York, USA", "valuation": "4.5B USD"}
+    },
+    {
+      "id": "microsoft",
+      "type": "Organization",
+      "name": "Microsoft",
+      "description": "Microsoft is a global technology company and the primary strategic investor in OpenAI with over $13 billion committed. They integrate OpenAI models into Azure, Office 365, and GitHub Copilot.",
+      "metadata": {"founded": 1975, "location": "Redmond, USA", "market_cap": "3T USD"}
+    },
+    {
+      "id": "google",
+      "type": "Organization",
+      "name": "Google",
+      "description": "Google (Alphabet) is a technology giant and parent company of Google DeepMind. They have invested $2 billion in Anthropic and provide cloud infrastructure through Google Cloud.",
+      "metadata": {"founded": 1998, "location": "Mountain View, USA", "market_cap": "2T USD"}
+    },
+    {
+      "id": "amazon",
+      "type": "Organization",
+      "name": "Amazon",
+      "description": "Amazon (AWS) has committed up to $4 billion to Anthropic, making it Anthropic's primary cloud and distribution partner. They offer Claude models through AWS Bedrock.",
+      "metadata": {"founded": 1994, "location": "Seattle, USA", "market_cap": "1.8T USD"}
+    },
+    {
+      "id": "dario_amodei",
+      "type": "Person",
+      "name": "Dario Amodei",
+      "description": "Dario Amodei is the co-founder and CEO of Anthropic. Previously he was VP of Research at OpenAI. He holds a PhD in computational neuroscience from Princeton.",
+      "metadata": {"role": "CEO", "education": "Princeton PhD"}
+    },
+    {
+      "id": "daniela_amodei",
+      "type": "Person",
+      "name": "Daniela Amodei",
+      "description": "Daniela Amodei is the co-founder and President of Anthropic, responsible for business operations and growth. She previously led business development at OpenAI and Stripe.",
+      "metadata": {"role": "President", "education": "Georgetown University"}
+    },
+    {
+      "id": "sam_altman",
+      "type": "Person",
+      "name": "Sam Altman",
+      "description": "Sam Altman is the CEO of OpenAI. He was previously president of Y Combinator. He was briefly ousted in November 2023 but reinstated within days after staff revolt.",
+      "metadata": {"role": "CEO", "education": "Stanford (dropped out)"}
+    },
+    {
+      "id": "demis_hassabis",
+      "type": "Person",
+      "name": "Demis Hassabis",
+      "description": "Demis Hassabis is the co-founder and CEO of Google DeepMind. He co-founded DeepMind in 2010, which Google acquired in 2014. He led teams that created AlphaGo and AlphaFold.",
+      "metadata": {"role": "CEO", "education": "Cambridge Computer Science, UCL Neuroscience PhD"}
+    },
+    {
+      "id": "yann_lecun",
+      "type": "Person",
+      "name": "Yann LeCun",
+      "description": "Yann LeCun is the Chief AI Scientist at Meta AI. He is a Turing Award winner and pioneer of convolutional neural networks (CNNs). He is a strong critic of current LLM limitations.",
+      "metadata": {"role": "Chief AI Scientist", "education": "UPMC PhD, Turing Award 2018"}
+    },
+    {
+      "id": "ilya_sutskever",
+      "type": "Person",
+      "name": "Ilya Sutskever",
+      "description": "Ilya Sutskever is a co-founder of OpenAI and was its Chief Scientist until 2024. He then founded Safe Superintelligence Inc (SSI) with a focus on building safe AGI.",
+      "metadata": {"role": "Co-founder SSI", "education": "University of Toronto PhD under Hinton"}
+    },
+    {
+      "id": "arthur_mensch",
+      "type": "Person",
+      "name": "Arthur Mensch",
+      "description": "Arthur Mensch is the CEO and co-founder of Mistral AI. He previously worked as a research scientist at Google DeepMind on large language model training.",
+      "metadata": {"role": "CEO", "education": "Ecole Polytechnique, ENS Paris"}
+    },
+    {
+      "id": "aidan_gomez",
+      "type": "Person",
+      "name": "Aidan Gomez",
+      "description": "Aidan Gomez is the CEO and co-founder of Cohere. He is a co-author of the original 'Attention Is All You Need' transformer paper published while interning at Google Brain.",
+      "metadata": {"role": "CEO", "education": "University of Oxford"}
+    },
+    {
+      "id": "claude_3_opus",
+      "type": "Model",
+      "name": "Claude 3 Opus",
+      "description": "Claude 3 Opus is Anthropic's most capable model in the Claude 3 family, excelling at complex reasoning, analysis, and nuanced instruction following. It surpassed GPT-4 on many benchmarks.",
+      "metadata": {"context_window": 200000, "release": "2024-03"}
+    },
+    {
+      "id": "claude_3_sonnet",
+      "type": "Model",
+      "name": "Claude 3 Sonnet",
+      "description": "Claude 3 Sonnet is Anthropic's balanced model offering the best combination of speed and intelligence. It is used in the multi-agent synthesis step of this very pipeline.",
+      "metadata": {"context_window": 200000, "release": "2024-03"}
+    },
+    {
+      "id": "gpt_4",
+      "type": "Model",
+      "name": "GPT-4",
+      "description": "GPT-4 is OpenAI's flagship large multimodal model, capable of processing both text and images. It demonstrated significant improvements in reasoning, coding, and complex task completion.",
+      "metadata": {"context_window": 128000, "release": "2023-03"}
+    },
+    {
+      "id": "gpt_4o",
+      "type": "Model",
+      "name": "GPT-4o",
+      "description": "GPT-4o (omni) is OpenAI's multimodal model that processes text, audio, and images in real-time. It replaced GPT-4 as the default ChatGPT model with faster speeds and lower cost.",
+      "metadata": {"context_window": 128000, "release": "2024-05"}
+    },
+    {
+      "id": "gemini_ultra",
+      "type": "Model",
+      "name": "Gemini 1.5 Ultra",
+      "description": "Gemini 1.5 Ultra is Google DeepMind's most capable model with a 1 million token context window. It uses a Mixture-of-Experts architecture and natively processes text, images, audio, and video.",
+      "metadata": {"context_window": 1000000, "release": "2024-02"}
+    },
+    {
+      "id": "llama_3",
+      "type": "Model",
+      "name": "Llama 3",
+      "description": "Llama 3 is Meta AI's open-weight large language model family (8B, 70B, 405B parameters). It is freely available for research and commercial use, making it the most popular open-source LLM.",
+      "metadata": {"context_window": 128000, "release": "2024-04", "open_source": true}
+    },
+    {
+      "id": "mistral_7b",
+      "type": "Model",
+      "name": "Mistral 7B",
+      "description": "Mistral 7B is Mistral AI's foundational open-source model with 7 billion parameters. Despite its small size, it outperforms Llama 2 13B on many benchmarks through sliding window attention.",
+      "metadata": {"parameters": "7B", "release": "2023-09", "open_source": true}
+    },
+    {
+      "id": "command_r",
+      "type": "Model",
+      "name": "Command R+",
+      "description": "Command R+ is Cohere's enterprise-grade model optimized for retrieval-augmented generation (RAG) and tool use. It supports 10 languages and 128K context for business applications.",
+      "metadata": {"context_window": 128000, "release": "2024-04"}
+    },
+    {
+      "id": "transformer",
+      "type": "Technology",
+      "name": "Transformer Architecture",
+      "description": "The Transformer architecture introduced in 'Attention Is All You Need' (2017) by Vaswani et al. is the foundation of virtually all modern LLMs. It uses self-attention mechanisms instead of recurrent layers.",
+      "metadata": {"year": 2017, "paper": "Attention Is All You Need"}
+    },
+    {
+      "id": "chatgpt",
+      "type": "Product",
+      "name": "ChatGPT",
+      "description": "ChatGPT is OpenAI's conversational AI assistant launched in November 2022. It reached 100 million users in 2 months and is now used by over 100 million weekly active users globally.",
+      "metadata": {"launched": "2022-11", "users": "100M+ weekly"}
+    },
+    {
+      "id": "claude_ai",
+      "type": "Product",
+      "name": "Claude.ai",
+      "description": "Claude.ai is Anthropic's consumer-facing AI assistant available at claude.ai. It provides access to Claude models for chat, document analysis, coding, and creative tasks.",
+      "metadata": {"launched": "2023-03", "url": "claude.ai"}
+    },
+    {
+      "id": "gemini_app",
+      "type": "Product",
+      "name": "Gemini App",
+      "description": "Gemini is Google's AI assistant app (formerly Bard) powered by Gemini models. It integrates with Google Workspace including Gmail, Docs, and Search.",
+      "metadata": {"launched": "2023-03", "formerly": "Bard"}
+    },
+    {
+      "id": "le_chat",
+      "type": "Product",
+      "name": "Le Chat",
+      "description": "Le Chat is Mistral AI's conversational assistant platform. It showcases Mistral's models and competes in the consumer AI assistant space, with a focus on European users.",
+      "metadata": {"launched": "2024-02", "url": "chat.mistral.ai"}
+    },
+    {
+      "id": "safe_superintelligence",
+      "type": "Organization",
+      "name": "Safe Superintelligence Inc (SSI)",
+      "description": "Safe Superintelligence Inc (SSI) is an AI safety startup founded by Ilya Sutskever after leaving OpenAI. Its singular focus is on building safe superintelligent AI.",
+      "metadata": {"founded": 2024, "location": "Palo Alto, USA", "funding": "1B USD"}
+    }
+  ],
+  "edges": [
+    {"source": "dario_amodei", "target": "anthropic", "relation": "CEO_OF", "description": "Dario Amodei co-founded and serves as CEO of Anthropic, setting the company's research direction and safety mission."},
+    {"source": "daniela_amodei", "target": "anthropic", "relation": "PRESIDENT_OF", "description": "Daniela Amodei co-founded Anthropic and serves as its President, overseeing business operations and growth."},
+    {"source": "dario_amodei", "target": "openai", "relation": "PREVIOUSLY_WORKED_AT", "description": "Dario Amodei was VP of Research at OpenAI before leaving to co-found Anthropic in 2021."},
+    {"source": "daniela_amodei", "target": "openai", "relation": "PREVIOUSLY_WORKED_AT", "description": "Daniela Amodei worked in business development at OpenAI before co-founding Anthropic in 2021."},
+    {"source": "sam_altman", "target": "openai", "relation": "CEO_OF", "description": "Sam Altman is the CEO of OpenAI, driving its mission of developing safe and beneficial AGI."},
+    {"source": "demis_hassabis", "target": "google_deepmind", "relation": "CEO_OF", "description": "Demis Hassabis co-founded DeepMind and now leads Google DeepMind as its CEO after Google's acquisition."},
+    {"source": "yann_lecun", "target": "meta_ai", "relation": "CHIEF_SCIENTIST_AT", "description": "Yann LeCun serves as Chief AI Scientist at Meta AI, directing fundamental AI research."},
+    {"source": "ilya_sutskever", "target": "openai", "relation": "CO_FOUNDED", "description": "Ilya Sutskever co-founded OpenAI in 2015 and served as Chief Scientist until departing in 2024."},
+    {"source": "ilya_sutskever", "target": "safe_superintelligence", "relation": "FOUNDED", "description": "Ilya Sutskever founded Safe Superintelligence Inc (SSI) in 2024 after leaving OpenAI, with $1B in funding."},
+    {"source": "arthur_mensch", "target": "mistral_ai", "relation": "CEO_OF", "description": "Arthur Mensch co-founded and serves as CEO of Mistral AI, leading model development and commercialization."},
+    {"source": "arthur_mensch", "target": "google_deepmind", "relation": "PREVIOUSLY_WORKED_AT", "description": "Arthur Mensch worked as a research scientist at Google DeepMind on LLM training before founding Mistral AI."},
+    {"source": "aidan_gomez", "target": "cohere", "relation": "CEO_OF", "description": "Aidan Gomez co-founded and serves as CEO of Cohere, building enterprise NLP solutions."},
+    {"source": "aidan_gomez", "target": "transformer", "relation": "CO_INVENTED", "description": "Aidan Gomez is a co-author of 'Attention Is All You Need', the seminal paper introducing the Transformer architecture."},
+    {"source": "anthropic", "target": "claude_3_opus", "relation": "DEVELOPED", "description": "Anthropic developed Claude 3 Opus, their most capable model released in March 2024."},
+    {"source": "anthropic", "target": "claude_3_sonnet", "relation": "DEVELOPED", "description": "Anthropic developed Claude 3 Sonnet as the balanced speed-intelligence model in the Claude 3 family."},
+    {"source": "openai", "target": "gpt_4", "relation": "DEVELOPED", "description": "OpenAI developed GPT-4, released in March 2023, as their flagship large language model."},
+    {"source": "openai", "target": "gpt_4o", "relation": "DEVELOPED", "description": "OpenAI developed GPT-4o (omni), released in May 2024, as a faster and cheaper multimodal replacement for GPT-4."},
+    {"source": "openai", "target": "chatgpt", "relation": "CREATED", "description": "OpenAI created ChatGPT, launched November 2022, which became the fastest-growing consumer app in history."},
+    {"source": "google_deepmind", "target": "gemini_ultra", "relation": "DEVELOPED", "description": "Google DeepMind developed Gemini 1.5 Ultra with a 1 million token context window."},
+    {"source": "google_deepmind", "target": "gemini_app", "relation": "CREATED", "description": "Google DeepMind powers the Gemini assistant app (formerly Bard)."},
+    {"source": "meta_ai", "target": "llama_3", "relation": "DEVELOPED", "description": "Meta AI developed Llama 3, releasing it as open-weight models available for commercial use."},
+    {"source": "mistral_ai", "target": "mistral_7b", "relation": "DEVELOPED", "description": "Mistral AI developed Mistral 7B and released it as open-source under Apache 2.0 license."},
+    {"source": "mistral_ai", "target": "le_chat", "relation": "CREATED", "description": "Mistral AI created Le Chat as their consumer AI assistant powered by Mistral models."},
+    {"source": "cohere", "target": "command_r", "relation": "DEVELOPED", "description": "Cohere developed Command R+ optimized for enterprise RAG applications with 128K context."},
+    {"source": "anthropic", "target": "claude_ai", "relation": "CREATED", "description": "Anthropic created Claude.ai, their consumer AI assistant platform."},
+    {"source": "microsoft", "target": "openai", "relation": "INVESTED_IN", "description": "Microsoft has invested over $13 billion in OpenAI and is its primary cloud provider through Azure OpenAI Service."},
+    {"source": "google", "target": "anthropic", "relation": "INVESTED_IN", "description": "Google has invested $2 billion in Anthropic and is a strategic cloud partner through Google Cloud."},
+    {"source": "amazon", "target": "anthropic", "relation": "INVESTED_IN", "description": "Amazon has committed up to $4 billion to Anthropic and distributes Claude models through AWS Bedrock."},
+    {"source": "google", "target": "google_deepmind", "relation": "OWNS", "description": "Google (Alphabet) owns Google DeepMind, having acquired DeepMind in 2014 for $500M and merged it with Google Brain in 2023."},
+    {"source": "chatgpt", "target": "gpt_4", "relation": "POWERED_BY", "description": "ChatGPT Plus is powered by GPT-4 and GPT-4o, offering access to OpenAI's most capable models."},
+    {"source": "chatgpt", "target": "gpt_4o", "relation": "POWERED_BY", "description": "ChatGPT default tier uses GPT-4o as its primary model since May 2024."},
+    {"source": "claude_ai", "target": "claude_3_opus", "relation": "POWERED_BY", "description": "Claude.ai Pro tier uses Claude 3 Opus as its most capable model for complex tasks."},
+    {"source": "claude_ai", "target": "claude_3_sonnet", "relation": "POWERED_BY", "description": "Claude.ai uses Claude 3 Sonnet as the default model for balanced performance."},
+    {"source": "gemini_app", "target": "gemini_ultra", "relation": "POWERED_BY", "description": "Gemini Advanced is powered by Gemini 1.5 Ultra, Google's most capable model."},
+    {"source": "le_chat", "target": "mistral_7b", "relation": "POWERED_BY", "description": "Le Chat is powered by Mistral AI models including Mistral 7B and Mixtral variants."},
+    {"source": "gpt_4", "target": "transformer", "relation": "BASED_ON", "description": "GPT-4 is built on the Transformer architecture, using decoder-only transformer blocks with modifications."},
+    {"source": "claude_3_opus", "target": "transformer", "relation": "BASED_ON", "description": "Claude 3 Opus uses a transformer-based architecture with Anthropic's Constitutional AI training methodology."},
+    {"source": "gemini_ultra", "target": "transformer", "relation": "BASED_ON", "description": "Gemini Ultra uses a transformer-based Mixture-of-Experts architecture for efficient scaling."},
+    {"source": "llama_3", "target": "transformer", "relation": "BASED_ON", "description": "Llama 3 is a decoder-only transformer model using grouped-query attention for efficiency."},
+    {"source": "mistral_7b", "target": "transformer", "relation": "BASED_ON", "description": "Mistral 7B uses a transformer architecture with sliding window attention and grouped-query attention."},
+    {"source": "anthropic", "target": "openai", "relation": "COMPETES_WITH", "description": "Anthropic directly competes with OpenAI in the AI assistant and API market, with Claude vs ChatGPT."},
+    {"source": "openai", "target": "google_deepmind", "relation": "COMPETES_WITH", "description": "OpenAI competes with Google DeepMind, with GPT-4 vs Gemini being the primary rivalry."},
+    {"source": "anthropic", "target": "amazon", "relation": "PARTNERED_WITH", "description": "Anthropic has a strategic partnership with Amazon: AWS provides compute, and Claude is available on Bedrock."},
+    {"source": "anthropic", "target": "google", "relation": "PARTNERED_WITH", "description": "Anthropic partnered with Google Cloud for training compute and distribution, alongside Google's $2B investment."},
+    {"source": "openai", "target": "microsoft", "relation": "PARTNERED_WITH", "description": "OpenAI is deeply partnered with Microsoft: Azure hosts their workloads and Microsoft integrates OpenAI APIs across products."},
+    {"source": "hugging_face", "target": "llama_3", "relation": "HOSTS", "description": "Hugging Face hosts Llama 3 model weights and enables easy download and fine-tuning by the community."},
+    {"source": "hugging_face", "target": "mistral_7b", "relation": "HOSTS", "description": "Hugging Face hosts Mistral 7B and its variants, making them accessible to the open-source community."}
+  ]
+}
